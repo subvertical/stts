@@ -105,6 +105,7 @@
 		B2FDC91C1D67062200F0B728 /* StatusPageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDC91B1D67062200F0B728 /* StatusPageService.swift */; };
 		B2FDC91E1D6706C400F0B728 /* CircleCI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDC91D1D6706C400F0B728 /* CircleCI.swift */; };
 		B2FFC1F01E261B4A00529A00 /* Dropbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFC1EF1E261B4A00529A00 /* Dropbox.swift */; };
+		BAEBD74A1E67AD93008E1B0B /* Subvertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBD7491E67AD93008E1B0B /* Subvertical.swift */; };
 		C7F7518A1E2CCA7A0013E8E2 /* WeTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F751891E2CCA7A0013E8E2 /* WeTransfer.swift */; };
 /* End PBXBuildFile section */
 
@@ -222,6 +223,7 @@
 		B2FDC91B1D67062200F0B728 /* StatusPageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusPageService.swift; sourceTree = "<group>"; };
 		B2FDC91D1D6706C400F0B728 /* CircleCI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleCI.swift; sourceTree = "<group>"; };
 		B2FFC1EF1E261B4A00529A00 /* Dropbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dropbox.swift; sourceTree = "<group>"; };
+		BAEBD7491E67AD93008E1B0B /* Subvertical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subvertical.swift; sourceTree = "<group>"; };
 		C7F751891E2CCA7A0013E8E2 /* WeTransfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeTransfer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -354,6 +356,7 @@
 				B24220E31E2F6BBA0007E50E /* Typeform.swift */,
 				B2A2B6A51E459F61008EFD05 /* Waffle.swift */,
 				C7F751891E2CCA7A0013E8E2 /* WeTransfer.swift */,
+				BAEBD7491E67AD93008E1B0B /* Subvertical.swift */,
 			);
 			path = StatusPage;
 			sourceTree = "<group>";
@@ -469,7 +472,7 @@
 				TargetAttributes = {
 					B2B2D0FE1D49D5080014D780 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PP5UYHJQCD;
+						DevelopmentTeam = XRQH6A73DW;
 						DevelopmentTeamName = "Mahdi Bchatnia";
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -629,6 +632,7 @@
 				B26CD1EC1DD59FFB0054A385 /* DigitalOcean.swift in Sources */,
 				B299C84D1DD04ED90024D2E9 /* Reddit.swift in Sources */,
 				B23D4E6F1E13475900B04F18 /* KeenIO.swift in Sources */,
+				BAEBD74A1E67AD93008E1B0B /* Subvertical.swift in Sources */,
 				B2C337A51E1417390007E110 /* Mixpanel.swift in Sources */,
 				B2357D711E5C08AF0093B8A6 /* Netlify.swift in Sources */,
 				B2FFC1F01E261B4A00529A00 /* Dropbox.swift in Sources */,
@@ -759,7 +763,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stts/stts.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = PP5UYHJQCD;
+				DEVELOPMENT_TEAM = XRQH6A73DW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -781,7 +785,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stts/stts.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = PP5UYHJQCD;
+				DEVELOPMENT_TEAM = XRQH6A73DW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
